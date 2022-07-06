@@ -4,8 +4,9 @@ html {
 }
 
 body {
-  background-image: url("pics/table.jpeg");
+  background-image: url("pics/bg3.jpeg");
   background-attachment: fixed;
+  background-size: cover;
   scroll-behavior: smooth;
   margin: 0px;
   padding: 0px;
@@ -49,7 +50,7 @@ body {
 
 .blank {
   z-index: 2;
-  background-image: linear-gradient(white, rgba(255, 255, 255, 0.719), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.719), rgba(255, 255, 255, 0));
   top: 0;
   width: 100vw;
   height: 100;
@@ -170,9 +171,9 @@ body {
 }
 
 .template {
-  margin:20;
-  height: 400px;
-  width: 400px;
+  margin:10;
+  height: 300px;
+  width: 300px;
   vertical-align: center;
   transition: width 1s;
   position: relative;
@@ -180,66 +181,30 @@ body {
 
 .template:hover {
   position: relative;
-  width: 600px;
+  width: 450px;
   transition: width 1s;
 }
 
 #cover {
   -webkit-filter: drop-shadow(3px 3px 6px #222);
   filter: drop-shadow(3px 3px 6px #222);
-  width: 400;
-  height: 400;
+  width: 300;
+  height: 300;
   z-index: 1;
   position: absolute;
   transition: left 1s;
 }
 
 #cd {
-  width: 400;
-  height: 400;
-  z-index: 0;
-  position: absolute;
-  right: 0;
-}
-#cover1 {
-  -webkit-filter: drop-shadow(3px 3px 6px #222) hue-rotate(40deg);
-  filter: drop-shadow(3px 3px 6px #222) hue-rotate(40deg);
-  width: 400;
-  height: 400;
-  z-index: 1;
-  position: absolute;
-  transition: left 1s;
-}
-
-#cd1 {
-  filter:hue-rotate(40deg);
-  width: 400;
-  height: 400;
-  z-index: 0;
-  position: absolute;
-  right: 0;
-}
-#cover2 {
-  -webkit-filter: drop-shadow(3px 3px 6px #222) hue-rotate(120deg);
-  filter: drop-shadow(3px 3px 6px #222) hue-rotate(120deg);
-  width: 400;
-  height: 400;
-  z-index: 1;
-  position: absolute;
-  transition: left 1s;
-}
-
-#cd2 {
-  filter:hue-rotate(120deg);
-  width: 400;
-  height: 400;
+  width: 300;
+  height: 300;
   z-index: 0;
   position: absolute;
   right: 0;
 }
 
 .desc {
-  height: 400;
+  height: 300;
   width: 400;
   margin: 20;
   position: relative;
