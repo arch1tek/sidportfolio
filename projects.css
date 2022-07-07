@@ -204,6 +204,7 @@ body {
   z-index: 0;
   position: absolute;
   right: 0;
+  filter: saturate(90%);
 }
 
 .desc {

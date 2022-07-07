@@ -144,3 +144,8 @@ body{
     color:rgb(149, 137, 225);
     text-decoration: none;
 }
+.about{
+  height: 50vh;
+  padding: 50;
+  color: white;
+}
